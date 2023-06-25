@@ -1,0 +1,999 @@
+﻿·        1. Forest
+o   1.1. Forest – Boreal
+o   1.2. Forest - Subarctic
+o   1.3. Forest – Subantarctic
+o   1.4. Forest – Temperate
+o   1.5. Forest – Subtropical/tropical dry
+o   1.6. Forest – Subtropical/tropical moist lowland
+o   1.7. Forest – Subtropical/tropical mangrove vegetation above high tide level
+o   1.8. Forest – Subtropical/tropical swamp
+o   1.9. Forest – Subtropical/tropical moist montane
+
+·        2. Savanna
+o   2.1. Savanna - Dry
+o   2.2. Savanna - Moist
+
+·        3. Shrubland
+o   3.1. Shrubland – Subarctic
+o   3.2. Shrubland – Subantarctic
+o   3.3. Shrubland – Boreal
+o   3.4. Shrubland –Temperate
+o   3.5. Shrubland – Subtropical/tropical dry
+o   3.6. Shrubland – Subtropical/tropical moist
+o   3.7. Shrubland – Subtropical/tropical high altitude
+o   3.8. Shrubland – Mediterranean-type shrubby vegetation
+o   3.9. Shrubland - Heathlands
+
+·        4. Grassland
+o   4.1. Grassland – Tundra (alpine/Arctic)
+o   4.2. Grassland – Subarctic
+o   4.3. Grassland – Subantarctic
+o   4.4. Grassland – Temperate
+o   4.5. Grassland – Subtropical/tropical dry
+o   4.6. Grassland – Subtropical/tropical seasonally wet/flooded
+o   4.7. Grassland – Subtropical/tropical high altitude
+
+·        5. Wetlands (inland)
+o   5.1. Wetlands (inland) – Permanent rivers/streams/creeks (includes waterfalls)
+o   5.2. Wetlands (inland) – Seasonal/intermittent/irregular rivers/streams/creeks
+o   5.3. Wetlands (inland) – Shrub dominated wetlands
+o   5.4. Wetlands (inland) – Bogs, marshes, swamps, fens, peatlands
+o   5.5. Wetlands (inland) – Permanent freshwater lakes (over 8 ha)
+o   5.6. Wetlands (inland) – Seasonal/intermittent freshwater lakes (over 8 ha)
+o   5.7. Wetlands (inland) – Permanent freshwater marshes/pools (under 8 ha)
+o   5.8. Wetlands (inland) – Seasonal/intermittent freshwater marshes/pools (under 8 ha)
+o   5.9. Wetlands (inland) – Freshwater springs and oases
+o   5.10. Wetlands (inland) – Tundra wetlands (inc. pools and temporary waters from snowmelt)
+o   5.11. Wetlands (inland) – Alpine wetlands (inc. temporary waters from snowmelt)
+o   5.12. Wetlands (inland) – Geothermal wetlands
+o   5.13. Wetlands (inland) – Permanent inland deltas
+o   5.14. Wetlands (inland) – Permanent saline, brackish or alkaline lakes
+o   5.15. Wetlands (inland) – Seasonal/intermittent saline, brackish or alkaline lakes and flats
+o   5.16. Wetlands (inland) – Permanent saline, brackish or alkaline marshes/pools
+o   5.17. Wetlands (inland) – Seasonal/intermittent saline, brackish or alkaline marshes/pools
+o   5.18. Wetlands (inland) – Karst and other subterranean hydrological systems (inland)
+
+·        6. Rocky Areas (e.g., inland cliffs, mountain peaks)
+
+·        7. Caves & Subterranean Habitats (non-aquatic)
+o   7.1. Caves and Subterranean Habitats (non-aquatic) – Caves
+o   7.2. Caves and Subterranean Habitats (non-aquatic) – Other subterranean habitats
+
+·        8. Desert
+o   8.1. Desert – Hot
+o   8.2. Desert – Temperate
+o   8.3. Desert – Cold
+
+·        9. Marine Neritic
+o   9.1. Marine Neritic – Pelagic
+o   9.2. Marine Neritic – Subtidal rock and rocky reefs
+o   9.3. Marine Neritic – Subtidal loose rock/pebble/gravel
+o   9.4. Marine Neritic – Subtidal sandy
+o   9.5. Marine Neritic – Subtidal sandy-mud
+o   9.6. Marine Neritic – Subtidal muddy
+o   9.7. Marine Neritic – Macroalgal/kelp
+o   9.8. Marine Neritic – Coral Reef
+§  9.8.1. Outer reef channel
+§  9.8.2. Back slope
+§  9.8.3. Foreslope (outer reef slope)
+§  9.8.4. Lagoon
+§  9.8.5. Inter-reef soft substrate
+§  9.8.6. Inter-reef rubble substrate
+o   9.9 Seagrass (Submerged)
+o   9.10 Estuaries
+
+·        10 Marine Oceanic
+o   10.1 Epipelagic (0–200 m)
+o   10.2 Mesopelagic (200–1,000 m)
+o   10.3 Bathypelagic (1,000–4,000 m)
+o   10.4 Abyssopelagic (4,000–6,000 m)
+
+·        11 Marine Deep Ocean Floor (Benthic and Demersal)
+o   11.1 Continental Slope/Bathyl Zone (200–4,000 m)
+§  11.1.1 Hard Substrate
+§  11.1.2 Soft Substrate
+o   11.2 Abyssal Plain (4,000–6,000 m)
+o   11.3 Abyssal Mountain/Hills (4,000–6,000 m)
+o   11.4 Hadal/Deep Sea Trench (>6,000 m)
+o   11.5 Seamount
+o   11.6 Deep Sea Vents (Rifts/Seeps)
+
+·        12 Marine Intertidal
+o   12.1 Rocky Shoreline
+o   12.2 Sandy Shoreline and/or Beaches, Sand Bars, Spits, etc.
+o   12.3 Shingle and/or Pebble Shoreline and/or Beaches
+o   12.4 Mud Shoreline and Intertidal Mud Flats
+o   12.5 Salt Marshes (Emergent Grasses)
+o   12.6 Tidepools
+o   12.7 Mangrove Submerged Roots
+
+·        13 Marine Coastal/Supratidal
+o   13.1 Sea Cliffs and Rocky Offshore Islands
+o   13.2 Coastal Caves/Karst
+o   13.3 Coastal Sand Dunes
+o   13.4 Coastal Brackish/Saline Lagoons/Marine Lakes
+o   13.5 Coastal Freshwater Lakes
+
+·        14 Artificial - Terrestrial
+o   14.1 Arable Land
+o   14.2 Pastureland
+o   14.3 Plantations
+o   14.4 Rural Gardens
+o   14.5 Urban Areas
+o   14.6 Subtropical/Tropical Heavily Degraded Former Forest
+o   14.7 Roadsides
+
+·        15 Artificial - Aquatic
+o   15.1 Water Storage Areas [over 8 ha]
+o   15.2 Ponds [below 8 ha]
+o   15.3 Aquaculture Ponds
+o   15.4 Salt Exploitation Sites
+o   15.5 Excavations (open)
+o   15.6 Wastewater Treatment Areas
+o   15.7 Irrigated Land [includes irrigation channels]
+o   15.8 Seasonally Flooded Agricultural Land
+o   15.9 Canals and Drainage Channels, Ditches
+o   15.10 Karst and Other Subterranean Hydrological Systems [human-made]
+o   15.11 Marine Anthropogenic Structures
+o   15.12 Mariculture Cages
+o   15.13 Mari/Brackish-culture Ponds
+
+·        16 Introduced Vegetation
+
+·        17 Other
+
+·        18 Unknown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

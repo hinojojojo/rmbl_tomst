@@ -1,0 +1,33 @@
+﻿All this data can be sent via WeTransfer to SOILTEMP.PROJECT@GMAIL.COM
+
+This is the example file on how to submit your in-situ microclimate data to the SoilTemp database. It consists of multiple tables:
+
+1) Metadata: the core of your dataset, allows us to link your microclimate timeseries to your sites and potential other datasets
+2) Raw time series data: the time series of microclimate data
+3) People: a list of all the people involved with your dataset and their status (i.e, when to contact them and how to acknowledge their contribution)
+4) Vegetation metadata: optional but highly recommended, if you have measured vegetation or soil parameters at the plot level (e.g. LAI), or if you have done vegetation surveys. Can also be provided later
+5) Vegetation data: optional extra, details on the plant species composition of your site
+6) Species details: optional extra, details on the plant species at your site, e.g., trait data
+
+Please follow the formatting as closely as possible. Instructions for each column are added as comments to the cell
+You can submit your data as .csv, .txt or Excel-file, yet in the latter case avoid using cell formatting (e.g. colors or 'time' formatting)
+
+What data can be included?
+Time series need to be at least one month long, with a maximum interval of 4 hours between measurements (start and end date, as well as temporal resolution (time interval between two consecutive records) needs to be provided in the metadata file: see next section).  
+All microclimate data from any height above or belowground is welcomed (including temperature, soil moisture, relative humidity, wind speed, radiation, ...). Data from experiments is now also included.
+
+Raw time series
+- Preferably replace erroneous data by NAs and remove time periods when the sensor was not installed in-situ. Carefully enter the start and end dates of the measurement period in the metadata to avoid usage of ex-situ data. These columns will be used to remove excess data.
+- We will run automized data cleaning using the MyClim-package (Man et al. 2023, http://labgis.ibot.cas.cz/myclim/index.html) to flag suspicious data ourselves
+- This data can also be submitted in .csv or .txt, as long as the column structure is the same as proposed.
+- The data can be submitted in two formats:
+o ‘long format’, with all sensors and loggers underneath each other (see example Excel sheet)
+o Separate files or sheets for each logger. In that case, the file or sheet name should match EXACTLY with the location or logger code in the metadata file.
+- Name matching is HUGELY important for us to link your metadata with your raw data.
+
+Video instructions can be found on https://www.soiltempproject.com/how-to-submit-data
+
+
+
+
+
