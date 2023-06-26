@@ -6,10 +6,10 @@ library(ggplot2)
 #####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_AlmontDown"
+ID <- "Enquist_Gradient_AlmontDown_94296912"
 
 # Read the file and set column names
-data <- read.csv("tomst_data/AlmontDown_data_94206012_0.csv", sep = ";", header = FALSE)
+data <- read.csv("tomst_data/AlmontDown_data_94296912_0.csv", sep = ";", header = FALSE)
 colnames(data) <- c("index", "date", "X", "T1", "T2", "T3", "Soil_moisture_raw", "shake", "errFlag", "x")
 
 # Extract date info to populate Year, Month, Day and Time columns
@@ -60,7 +60,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 #####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_AlmontUp"
+ID <- "Enquist_Gradient_AlmontUp_94206011"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/AlmontUp_data_94206011_0.csv", sep = ";", header = FALSE)
@@ -113,7 +113,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_CbtBetweenShrubs"
+ID <- "Enquist_Gradient_CbtBetweenShrubs_94206017"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/Cbt_BetweenShrubs_data_94206017_0.csv", sep = ";", header = FALSE)
@@ -163,11 +163,11 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# CBT phenocam
+# CBT Shrub Phenocam
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_CbtShrubPhenocam"
+ID <- "Enquist_Gradient_CbtShrubPhenocam_94206008"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/Cbt_ShrubPhenocam_data_94206008_0.csv", sep = ";", header = FALSE)
@@ -221,7 +221,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_RoadDown"
+ID <- "Enquist_Gradient_RoadDown_94206009"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/Road_Down_data_94206009_0.csv", sep = ";", header = FALSE)
@@ -275,7 +275,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_RoadUp"
+ID <- "Enquist_Gradient_RoadUp_94206015"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/Road_Up_data_94206015_0.csv", sep = ";", header = FALSE)
@@ -329,7 +329,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_PfeilerLeft"
+ID <- "Enquist_Gradient_PfeilerLeft_94206020"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/Pfeiler_Left_data_94206020_0.csv", sep = ";", header = FALSE)
@@ -383,7 +383,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_PfeilerRight"
+ID <- "Enquist_Gradient_PfeilerRight_94206013"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/Pfeiler_Right_data_94206013_0.csv", sep = ";", header = FALSE)
@@ -437,7 +437,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_PbmNearPhenocamClose"
+ID <- "Enquist_Gradient_PbmNearPhenocamClose_94206010"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/PBM_NearPhenocamClose_data_94206010_0.csv", sep = ";", header = FALSE)
@@ -491,7 +491,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_PbmPhenocamRightFar"
+ID <- "Enquist_Gradient_PbmPhenocamRightFar_94206006"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/PBM_PhenocamRightFar_data_94206006_0.csv", sep = ";", header = FALSE)
@@ -546,7 +546,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_CinnamonLeft"
+ID <- "Enquist_Gradient_CinnamonLeft_94206018"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/Cinnamon_Left_data_9406018_0.csv", sep = ";", header = FALSE)
@@ -600,7 +600,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 ####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_CinnamonRight"
+ID <- "Enquist_Gradient_CinnamonRight_94206014"
 
 # Read the file and set column names
 data <- read.csv("tomst_data/Cinnamon_Right_data_94206014_0.csv", sep = ";", header = FALSE)
