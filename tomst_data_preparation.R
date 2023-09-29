@@ -2,14 +2,14 @@ library(ggplot2)
 
 
 #####
-# Almont down
+# Almont down 94206012
 #####
 
 # First, set an ID for the site/sensor/location
-ID <- "Enquist_Gradient_AlmontDown_94296912"
+ID <- "Enquist_Gradient_AlmontDown_94206012"
 
 # Read the file and set column names
-data <- read.csv("tomst_data/AlmontDown_data_94296912_0.csv", sep = ";", header = FALSE)
+data <- read.csv("tomst_data/AlmontDown_data_94206012_0.csv", sep = ";", header = FALSE)
 colnames(data) <- c("index", "date", "X", "T1", "T2", "T3", "Soil_moisture_raw", "shake", "errFlag", "x")
 
 # Extract date info to populate Year, Month, Day and Time columns
@@ -26,7 +26,7 @@ ggplot(data = data, mapping = aes(x = datePOSIXct)) +
 	geom_line(aes(y = T1), color = "green") +
 	geom_line(aes(y = T1), color = "red") +
 	geom_line(aes(y = Soil_moisture_raw/100), color = "black") +
-	scale_x_datetime(limits = c(as.POSIXct("2020-10-01"), as.POSIXct("2020-10-02")))
+	scale_x_datetime(limits = c(as.POSIXct("2020-08-01"), as.POSIXct("2020-10-02")))
 
 # In the following line, note the date when the good data starts:w
 # We will take as good data from September 01 2020.
@@ -56,7 +56,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# Almont up
+# Almont up 94206011
 #####
 
 # First, set an ID for the site/sensor/location
@@ -80,7 +80,7 @@ ggplot(data = data, mapping = aes(x = datePOSIXct)) +
 	geom_line(aes(y = T1), color = "green") +
 	geom_line(aes(y = T1), color = "red") +
 	geom_line(aes(y = Soil_moisture_raw/100), color = "black") +
-	scale_x_datetime(limits = c(as.POSIXct("2020-10-01"), as.POSIXct("2020-10-02")))
+	scale_x_datetime(limits = c(as.POSIXct("2020-08-01"), as.POSIXct("2020-10-02")))
 
 # In the following line, note the date when the good data starts:w
 # We will take as good data from September 01 2020.
@@ -109,7 +109,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# CBT between shrubs
+# CBT between shrubs 94206017
 ####
 
 # First, set an ID for the site/sensor/location
@@ -133,7 +133,7 @@ ggplot(data = data, mapping = aes(x = datePOSIXct)) +
 	geom_line(aes(y = T1), color = "green") +
 	geom_line(aes(y = T1), color = "red") +
 	geom_line(aes(y = Soil_moisture_raw/100), color = "black") +
-	scale_x_datetime(limits = c(as.POSIXct("2020-10-01"), as.POSIXct("2020-10-02")))
+	scale_x_datetime(limits = c(as.POSIXct("2021-08-01"), as.POSIXct("2021-10-02")))
 
 # In the following line, note the date when the good data starts:w
 # We will take as good data from September 01 2021.
@@ -163,7 +163,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# CBT Shrub Phenocam
+# CBT Shrub Phenocam 94206008
 ####
 
 # First, set an ID for the site/sensor/location
@@ -187,7 +187,7 @@ ggplot(data = data, mapping = aes(x = datePOSIXct)) +
 	geom_line(aes(y = T1), color = "green") +
 	geom_line(aes(y = T1), color = "red") +
 	geom_line(aes(y = Soil_moisture_raw/100), color = "black") +
-	scale_x_datetime(limits = c(as.POSIXct("2020-10-01"), as.POSIXct("2020-10-02")))
+	scale_x_datetime(limits = c(as.POSIXct("2022-06-01"), as.POSIXct("2022-09-02")))
 
 # In the following line, note the date when the good data starts:w
 # We will take as good data from July 15 2022.
@@ -217,7 +217,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# Road Down
+# Road Down 94206009
 ####
 
 # First, set an ID for the site/sensor/location
@@ -241,7 +241,7 @@ ggplot(data = data, mapping = aes(x = datePOSIXct)) +
 	geom_line(aes(y = T1), color = "green") +
 	geom_line(aes(y = T1), color = "red") +
 	geom_line(aes(y = Soil_moisture_raw/100), color = "black") +
-	scale_x_datetime(limits = c(as.POSIXct("2020-10-01"), as.POSIXct("2020-10-02")))
+	scale_x_datetime(limits = c(as.POSIXct("2020-08-01"), as.POSIXct("2020-10-02")))
 
 # In the following line, note the date when the good data starts:w
 # We will take as good data from September 01 2020
@@ -271,7 +271,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# Road Up
+# Road Up 94206015
 ####
 
 # First, set an ID for the site/sensor/location
@@ -295,7 +295,7 @@ ggplot(data = data, mapping = aes(x = datePOSIXct)) +
 	geom_line(aes(y = T1), color = "green") +
 	geom_line(aes(y = T1), color = "red") +
 	geom_line(aes(y = Soil_moisture_raw/100), color = "black") +
-	scale_x_datetime(limits = c(as.POSIXct("2020-10-01"), as.POSIXct("2020-10-02")))
+	scale_x_datetime(limits = c(as.POSIXct("2020-08-01"), as.POSIXct("2020-10-02")))
 
 # In the following line, note the date when the good data starts:w
 # We will take as good data from September 01 2020
@@ -325,7 +325,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# Pfeiler Left
+# Pfeiler Left 94206020
 ####
 
 # First, set an ID for the site/sensor/location
@@ -379,7 +379,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# Pfeiler Right
+# Pfeiler Right 94206013
 ####
 
 # First, set an ID for the site/sensor/location
@@ -433,7 +433,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# PBM NearPhenocamClose
+# PBM NearPhenocamClose 94206010
 ####
 
 # First, set an ID for the site/sensor/location
@@ -467,7 +467,7 @@ ggplot(data = data, mapping = aes(x = datePOSIXct)) +
 head(data[data$Year == 2021 & data$Month == 9 & data$Day == 1, ], 1000)
 
 # Then just put here the row numer
-data <- data[38365:nrow(data), ]
+data <- data[38366:nrow(data), ]
 head(data)  # Check that the file starts where it should
 
 # Check if there is any data with errFlag not equal to 0 which may indicate an error
@@ -487,7 +487,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# PBM PhenocamRightFar
+# PBM PhenocamRightFar 94206006
 ####
 
 # First, set an ID for the site/sensor/location
@@ -510,8 +510,8 @@ ggplot(data = data, mapping = aes(x = datePOSIXct)) +
 	geom_line(aes(y = T1), color = "blue") +
 	geom_line(aes(y = T1), color = "green") +
 	geom_line(aes(y = T1), color = "red") +
-	geom_line(aes(y = Soil_moisture_raw/100), color = "black")
-	#scale_x_datetime(limits = c(as.POSIXct("2020-10-01"), as.POSIXct("2020-10-02")))
+	geom_line(aes(y = Soil_moisture_raw/100), color = "black") +
+	scale_x_datetime(limits = c(as.POSIXct("2020-08-01"), as.POSIXct("2020-10-02")))
 
 # In the following line, note the date when the good data starts:w
 # We will take as good data from September 01 2020
@@ -542,7 +542,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# Cinnamon Left
+# Cinnamon Left 94206018
 ####
 
 # First, set an ID for the site/sensor/location
@@ -565,8 +565,8 @@ ggplot(data = data, mapping = aes(x = datePOSIXct)) +
 	geom_line(aes(y = T1), color = "blue") +
 	geom_line(aes(y = T1), color = "green") +
 	geom_line(aes(y = T1), color = "red") +
-	geom_line(aes(y = Soil_moisture_raw/100), color = "black")
-	#scale_x_datetime(limits = c(as.POSIXct("2020-10-01"), as.POSIXct("2020-10-02")))
+	geom_line(aes(y = Soil_moisture_raw/100), color = "black") +
+	scale_x_datetime(limits = c(as.POSIXct("2020-08-01"), as.POSIXct("2020-12-02")))
 
 # In the following line, note the date when the good data starts:w
 # We will take as good data from September 01 2020
@@ -596,7 +596,7 @@ write.csv(x = data, file = paste0("final_files/", ID, ".csv"), row.names = FALSE
 
 
 #####
-# Cinnamon Right
+# Cinnamon Right 94206014
 ####
 
 # First, set an ID for the site/sensor/location
